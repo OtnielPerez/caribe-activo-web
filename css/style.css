@@ -40,8 +40,8 @@ body{
     outline: none;
     color: white;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 10px; /* Important for vertical align on mobile phones */
+    font-family: inherit;
+    margin: 10px; 
   }
   
   /* Add a red background color to navbar links on hover */
@@ -102,3 +102,20 @@ body{
     border-width: 1px;
 }
 
+.section1{
+    background-image: linear-gradient(to bottom, #1024d4, rgb(0, 238, 255));
+    margin-top: -60px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: auto;
+    color: white;
+}
+
+.section1-header h1{
+    font-size: 80px;
+    line-height: 70px;
+}
+
+.section1-header h2{
+    margin-top: -30px;
+}
